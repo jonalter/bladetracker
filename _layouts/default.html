@@ -21,7 +21,11 @@
       <div>
         <h1><a href="{{ site.baseurl }}/" rel="home">{{ site.name }}</a></h1>
         <h2>{{ site.tagline }}</h2>
-        <p>{{ site.appstore_white }}</p>
+        <p>
+          <a href="{{ site.appstore_url }}" class="app-store" rel="external nofollow">
+            <img src="{{ '/assets/app-store-white.svg' | prepend: site.baseurl }}" alt="Download on the App Store">
+          </a>
+        </p>
       </div>
     </div>
   </header>
