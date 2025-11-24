@@ -49,7 +49,7 @@ table {
 .grater-container {
   width: 960px;
   margin: 0 auto; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .grater-container {
       width: 300px; } }
 
@@ -71,7 +71,7 @@ table {
     display: table; }
   .grater:after {
     clear: both; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .grater {
       margin-bottom: 1em; }
       .grater > div {
@@ -186,16 +186,31 @@ body > header {
     margin-bottom: 0; }
   body > header p {
     margin-bottom: 0; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     body > header {
       text-align: center;
-      padding: 20px 0 20px; }
+      padding: 24px 0 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      body > header > .grater {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; }
+        body > header > .grater > div {
+          float: none !important;
+          width: auto;
+          margin: 0 auto 12px;
+          text-align: center; }
       body > header a.icon {
         width: 160px;
         height: 160px;
         margin: 0 auto 1em; }
       body > header h1 {
-        margin-top: 0; }
+        margin-top: 0;
+        font-size: 36px;
+        line-height: 1.1; }
       body > header h2 {
         font-size: 20px; } }
 
@@ -233,7 +248,7 @@ body > footer {
     float: left;
     margin-left: 1em;
     display: inline-block; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     body > footer {
       text-align: center;
       padding-bottom: 0; }
@@ -247,7 +262,7 @@ body > footer {
         text-align: center;
         width: 100%; } }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 1100px) {
   footer.grater > div {
     margin-bottom: 0.5em; } }
 div.iphone {
@@ -264,7 +279,7 @@ div.iphone {
     width: 320px;
     height: 568px;
     overflow: hidden; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     div.iphone {
       display: none; } }
 
@@ -329,7 +344,7 @@ a.app-store {
   border-radius: 20px;
   padding: 28px;
   box-shadow: 0 28px 60px rgba(12, 77, 216, 0.1); }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .hero-surface {
       padding: 20px; } }
 
@@ -338,7 +353,7 @@ a.app-store {
   grid-template-columns: 1.05fr 0.95fr;
   gap: 22px;
   align-items: start; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .hero-grid {
       grid-template-columns: 1fr; } }
 
@@ -350,7 +365,7 @@ a.app-store {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .feature-grid {
       grid-template-columns: 1fr; } }
 
@@ -444,7 +459,7 @@ a.app-store {
   margin-top: 14px;
   align-items: start;
   width: 100%; }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .support-grid {
       grid-template-columns: 1fr; } }
 
@@ -514,11 +529,11 @@ a.app-store {
   grid-column: span 2;
   background: linear-gradient(135deg, rgba(28, 163, 255, 0.08), rgba(12, 77, 216, 0.08));
   border-color: rgba(0, 122, 255, 0.18); }
-  @media all and (max-width: 660px) {
+  @media all and (max-width: 1100px) {
     .support-card.callout {
       grid-column: span 1; } }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 1100px) {
   p.app-store {
     text-align: center; } }
 

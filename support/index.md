@@ -14,7 +14,10 @@ title: BladeTracker - Support
 <style>
 .support-links {
   margin: 0 0 10px;
-  font-size: 0.95em;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
 }
 
 .support-wrapper {
@@ -22,6 +25,7 @@ title: BladeTracker - Support
   max-width: 1040px;
   margin: 0 auto;
   clear: both;
+  padding: 0 12px;
 }
 .support-grid {
   display: flex !important;
@@ -34,6 +38,23 @@ title: BladeTracker - Support
 }
 .support-card.callout {
   max-width: 100%;
+}
+
+@media (max-width: 660px) {
+  .support-links {
+    font-size: 0.95em;
+    gap: 6px 10px;
+  }
+  .support-wrapper {
+    padding: 0 10px;
+  }
+  .support-card {
+    padding: 16px;
+  }
+  .list-steps li,
+  .list-tips li {
+    padding: 12px;
+  }
 }
 </style>
 
