@@ -4,7 +4,19 @@ title: BladeTracker - Support
 ---
 ### Support
 
+<p class="support-links">
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#tips">Tips</a> ·
+  <a href="#faq">FAQ</a> ·
+  <a href="#need-help">Need help</a>
+</p>
+
 <style>
+.support-links {
+  margin: 0 0 10px;
+  font-size: 0.95em;
+}
+
 .support-wrapper {
   width: 100%;
   max-width: 1040px;
@@ -27,7 +39,7 @@ title: BladeTracker - Support
 
 <div class="support-wrapper">
   <div class="support-grid">
-    <div class="support-card">
+    <div class="support-card" id="getting-started">
       <h4>Getting started</h4>
       <ul class="list-steps">
         <li><span class="step-label">Add your skates and blades</span><span class="step-text">Create a blade for each set of steel you skate on (team, tournament, practice, backup).</span></li>
@@ -37,7 +49,7 @@ title: BladeTracker - Support
       </ul>
     </div>
 
-    <div class="support-card">
+    <div class="support-card" id="tips">
       <h4>Tips for staying dialed in</h4>
       <ul class="list-tips">
         <li><strong>Save the tech/shop</strong> on every sharpening so you can spot patterns.</li>
@@ -47,7 +59,7 @@ title: BladeTracker - Support
       </ul>
     </div>
 
-    <div class="support-card faq">
+    <div class="support-card faq" id="faq">
       <h4>FAQ</h4>
       <div class="qa">
         <p class="q">How do I change the hollow on a sharpening entry?</p>
@@ -67,7 +79,7 @@ title: BladeTracker - Support
       </div>
     </div>
 
-    <div class="support-card callout">
+    <div class="support-card callout" id="need-help">
       <h4>Need help?</h4>
       <p>Just <a href="mailto:{{ site.email_support }}">email us</a> and we’ll take care of you.</p>
     </div>
