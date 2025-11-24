@@ -1,16 +1,33 @@
 // Header
 body > header {
-  @include linear-gradient($top-gradient-color, $bottom-gradient-color);
+  @include linear-gradient(135deg, $top-gradient-color, $bottom-gradient-color);
   color: #fff;
-  padding: 50px 0;
-  margin-bottom: 50px;
+  padding: 60px 0 70px;
+  margin-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 22px 60px rgba(12, 77, 216, 0.25);
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: -140px;
+    top: -120px;
+    width: 360px;
+    height: 360px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.16), transparent 65%);
+    filter: blur(6px);
+  }
 
   h1 {
     margin-top: 1.2em;
+    color: #fff;
   }
 
   h2 {
     margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.82);
   }
 
   p {
@@ -21,10 +38,15 @@ body > header {
     display: block;
     width: 280px;
     height: 280px;
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 12px;
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.2);
 
     img {
       width: 100%;
       height: 100%;
+      border-radius: 18px;
     }
   }
 
@@ -63,7 +85,10 @@ body > header {
 // }
 
 h1 {
-  font: 50px $avenir-heavy;
+  font-family: $avenir-heavy;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
 
   a {
     color: #fff;
@@ -72,9 +97,10 @@ h1 {
 }
 
 h2 {
-  font: 30px $avenir-light;
-  // text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  font-family: $avenir-light;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 // Footer
@@ -84,6 +110,8 @@ body > footer {
   padding: 1em 0;
   color: $light-text-color;
   font: 18px $avenir-light;
+  border-top: 1px solid rgba(0, 122, 255, 0.12);
+  margin-top: 50px;
 
   a {
     color: $light-text-color;

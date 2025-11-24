@@ -2,15 +2,15 @@ plugins:
   - jekyll-seo-tag
 
 # General
-name: KartBalance
-tagline: Balance your kart
+name: BladeTracker
+tagline: Track every skate edge with confidence
 baseurl: "/bladetracker"
 url: "https://jonalter.github.io" # the base hostname & protocol for your site
 
 # SEO
-# kart,karting,balance,weight,distribution,scaling,calculator,center,gravity,ratio,scale,chassis,race
-title: Kart Balance and Weight Distribution Calculator App
-description: An easy to use chassis balance and weight distribution calculator for scaling and adding weights to a kart
+# blade,skate,sharpening,hockey,edges,logbook,maintenance,gear,tracker
+title: BladeTracker – Skate Blade Sharpening Log for iPhone and iPad
+description: BladeTracker keeps ice hockey players on top of sharpenings, swaps, and performance notes with a clean, synced logbook for every pair of steel.
 
 # favicon
 favicon: /favicon.png
@@ -20,21 +20,19 @@ exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'vendor', 'vendor/**/*', 'vendo
 markdown: kramdown
 
 # App Store
-appstore_url: https://itunes.com/apps/kartbalance
+appstore_url: https://apps.apple.com/app/bladetracker
 
 # Google services
 google_analytics: UA-83573292-3
 
 # Screenshots
-screenshots:
-- screenshot01
-- screenshot02
+screenshots: []
 
 # Company Info
 company: Jon Alter
 company_website: http://kartbalance.com
 
 # Emails
-email_press: kartbalanceapp@gmail.com
-email_contact: kartbalanceapp@gmail.com
-email_support: kartbalanceapp@gmail.com
+email_press: jalterapps@gmail.com
+email_contact: jalterapps@gmail.com
+email_support: jalterapps@gmail.com
