@@ -1,7 +1,7 @@
 $grater-large-container-width: 960px !default;
 $grater-small-container-width: 300px !default;
 $grater-column-width: 440px !default;
-$grater-small-media-query: "all and (max-width: 1100px)" !default;
+$grater-small-media-query: "all and (max-width: 1400px)" !default;
 
 // Grater container
 .grater-container {
@@ -9,7 +9,8 @@ $grater-small-media-query: "all and (max-width: 1100px)" !default;
   margin: 0 auto;
 
   @media #{$grater-small-media-query} {
-    width: $grater-small-container-width;
+    width: 100%;
+    padding: 0 10px;
   }
 }
 
@@ -61,7 +62,8 @@ $grater-small-media-query: "all and (max-width: 1100px)" !default;
 
     > div {
       float: none !important; // Shut up. I know, I know
-      margin: 0 auto 2em;
+      margin: 0 auto 1.2em;
+      width: 100%;
     }
   }
 }

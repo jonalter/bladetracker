@@ -26,15 +26,24 @@ title: BladeTracker - Support
   margin: 0 auto;
   clear: both;
   padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .support-grid {
   display: flex !important;
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 6px;
 }
 .support-card {
   width: 100%;
+  max-width: 720px;
+  text-align: left;
 }
 .support-card.callout {
   max-width: 100%;
@@ -46,14 +55,32 @@ title: BladeTracker - Support
     gap: 6px 10px;
   }
   .support-wrapper {
-    padding: 0 10px;
+    padding: 0 14px;
+    align-items: center;
   }
   .support-card {
     padding: 16px;
+    text-align: left;
+    max-width: 700px;
+    width: calc(100% - 18px);
   }
   .list-steps li,
   .list-tips li {
     padding: 12px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .support-wrapper {
+    max-width: 760px;
+    padding: 0 12px;
+  }
+  .support-card {
+    max-width: 640px;
+    width: calc(100% - 24px);
+  }
+  .support-card.callout {
+    max-width: 640px;
   }
 }
 </style>
