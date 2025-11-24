@@ -136,10 +136,15 @@ a.app-store {
 
 .support-wrapper {
   width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  clear: both;
 }
 
 .grater > .support-wrapper {
   width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
   float: none !important;
 }
 
@@ -295,13 +300,11 @@ a.app-store {
 
 .support-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 16px;
   margin-top: 14px;
   align-items: start;
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 
   @media #{$grater-small-media-query} {
     grid-template-columns: 1fr;

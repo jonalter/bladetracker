@@ -4,6 +4,27 @@ title: BladeTracker - Support
 ---
 ### Support
 
+<style>
+.support-wrapper {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  clear: both;
+}
+.support-grid {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.support-card {
+  width: 100%;
+}
+.support-card.callout {
+  max-width: 100%;
+}
+</style>
+
 <div class="support-wrapper">
   <div class="support-grid">
     <div class="support-card">
