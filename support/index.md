@@ -90,7 +90,7 @@ title: BladeTracker - Support
     <div class="support-card" id="getting-started">
       <h4>Getting started</h4>
       <ul class="list-steps">
-        <li><span class="step-label">Add your skates and blades</span><span class="step-text">Create a blade for each set of steel you skate on (team, tournament, practice, backup).</span></li>
+        <li><span class="step-label">Add your skates and blades</span><span class="step-text">Create a blade for each set of steel you skate on (tournament, practice, backup).</span></li>
         <li><span class="step-label">Log a sharpening</span><span class="step-text">Record the hollow, shop/tech, and cost so you always know who touched your edges.</span></li>
         <li><span class="step-label">Install or swap</span><span class="step-text">Track when a set was mounted or pulled off your holders.</span></li>
         <li><span class="step-label">Performance notes</span><span class="step-text">Capture how the edges felt after a skate—bite, glide, or anything off.</span></li>
