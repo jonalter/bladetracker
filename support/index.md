@@ -125,6 +125,14 @@ title: BladeTracker - Support
         <p class="q">How do I track multiple pairs of blades?</p>
         <p class="a">Add a blade entry for each set and use install records to know which blades are currently in your skates.</p>
       </div>
+      <div class="qa">
+        <p class="q">How do I track multiple pairs of skates?</p>
+        <p class="a">Go to the Settings > Manage Skates > Add Skates. You will need to add blades to your skates. You can Add Blades in Settings > Manage Blades.</p>
+      </div>
+      <div class="qa">
+        <p class="q">How do you distinguish between identical sets of steel?</p>
+        <p class="a">I use an engraving pen. I mark each set in the same spot so I can find it easily. The pen leaves enough mark that you can see it well and it won’t come off.</p>
+      </div>
     </div>
 
     <div class="support-card callout" id="need-help">
