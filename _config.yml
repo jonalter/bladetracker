@@ -22,9 +22,6 @@ markdown: kramdown
 # App Store
 appstore_url: https://apps.apple.com/app/bladetracker/id6755408995
 
-# Google services
-google_analytics: G-NH528CY1QF
-
 # Screenshots
 screenshots: []
 
