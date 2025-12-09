@@ -4,6 +4,33 @@ The Jekyll App Site is a small Jekyll template to present an iPhone app with a s
 
 ## Running Locally
 
+### Option 1: Docker (Recommended)
+
+The easiest way to run the site locally is using Docker Compose:
+
+**Start the server:**
+```bash
+docker-compose up -d
+```
+
+**Access the site:**
+- Open your browser to `http://localhost:4000/`
+- LiveReload is enabled - the browser will automatically refresh when you make changes
+
+**View logs:**
+```bash
+docker-compose logs -f
+```
+
+**Stop the server:**
+```bash
+docker-compose down
+```
+
+**Note:** The Docker setup uses `_config_dev.yml` to override the production `baseurl` setting, allowing the site to run at the root path (`/`) instead of `/bladetracker/` during local development.
+
+### Option 2: Local Jekyll Installation
+
 Make sure you have all the [requirements](#requirements) installed.
 
 There are 4 rake tasks:

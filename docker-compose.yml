@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    command: bash /srv/jekyll/docker-start.sh
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
