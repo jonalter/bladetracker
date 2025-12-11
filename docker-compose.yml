@@ -5,8 +5,8 @@ services:
     image: jekyll/jekyll:pages
     command: bash /srv/jekyll/docker-start.sh
     ports:
-      - "4000:4000"
-      - "35729:35729"
+      - "4001:4000"
+      - "35730:35729"
     volumes:
       - .:/srv/jekyll
     environment:
