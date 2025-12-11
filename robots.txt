@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonalter.github.io/bladetracker/sitemap.xml

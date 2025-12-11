@@ -11,12 +11,14 @@
   {% include analytics.html %}
   {% endif %}
   {% seo %}
+  {% include structured-data.html %}
+  {% include social-meta.html %}
 </head>
 <body>
   <header>
     <div class="grater grater-container">
       <div>
-        <a class="icon" href="{{ site.appstore_url }}" rel="external nofollow"><img src="{{ "/assets/icon-rounded-280.png" | prepend: site.baseurl }}"></a>
+        <a class="icon" href="{{ site.appstore_url }}" rel="external nofollow"><img src="{{ "/assets/icon-rounded-280.png" | prepend: site.baseurl }}" alt="BladeTracker - Ice hockey blade sharpening tracker app icon"></a>
       </div>
       <div>
         <h1><a href="{{ site.baseurl }}/" rel="home">{{ site.name }}</a></h1>

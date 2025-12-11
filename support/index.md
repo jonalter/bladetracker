@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BladeTracker - Support
+description: Learn how to use BladeTracker to track ice hockey blade sharpenings, manage multiple pairs of steel, and log blade performance. Complete guide with FAQ for hockey blade maintenance.
 ---
 ### Support
 
@@ -137,7 +138,64 @@ title: BladeTracker - Support
 
     <div class="support-card callout" id="need-help">
       <h4>Need help?</h4>
-      <p>Just <a href="mailto:{{ site.email_support }}">email us</a> and we’ll take care of you.</p>
+      <p>Just <a href="mailto:{{ site.email_support }}">email us</a> and we'll take care of you.</p>
     </div>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I change the hollow on a sharpening entry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Edit the sharpening record and update the hollow value—your log will keep the full history."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I sync BladeTracker between devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. BladeTracker uses iCloud, so your sharpening history stays in step across iPhone and iPad automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I track multiple pairs of blades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Add a blade entry for each set of steel you own and use install records to track which blades are currently mounted in your skates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I track multiple pairs of skates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to Settings > Manage Skates > Add Skates. You will need to add blades to your skates. You can add blades in Settings > Manage Blades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you distinguish between identical sets of steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use an engraving pen to mark each set in the same spot. The pen leaves enough of a mark that you can see it well and it won't come off."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does BladeTracker work for figure skating blades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! While BladeTracker is designed for ice hockey players, it works perfectly for tracking figure skating blade sharpenings and maintenance as well."
+      }
+    }
+  ]
+}
+</script>

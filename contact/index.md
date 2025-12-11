@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BladeTracker - Contact
+description: Contact BladeTracker support team for help with tracking blade sharpenings, app features, or technical questions about hockey blade maintenance.
 ---
 ### Contact
 
