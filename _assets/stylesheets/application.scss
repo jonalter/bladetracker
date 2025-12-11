@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @import "bourbon/bourbon";
 @import "globals/variables";
@@ -16,6 +16,7 @@ html {
 
 body {
   font-family: $avenir-medium;
+  font-weight: 400;
   font-size: 18px;
   color: $dark-text-color;
   line-height: 1.6;
@@ -45,6 +46,7 @@ p.disclaimer {
 
 strong {
   font-family: $avenir-heavy;
+  font-weight: 600;
 }
 
 span.asterisk {
@@ -80,6 +82,7 @@ ul.list {
 
 h3 {
   font-family: $avenir-heavy;
+  font-weight: 700;
   font-size: 30px;
   margin-bottom: 0.5em;
   color: $light-text-color;
@@ -87,6 +90,7 @@ h3 {
 
 h4 {
   font-family: $avenir-heavy;
+  font-weight: 700;
   font-size: 22px;
   color: lighten($light-text-color, 28%);
 }
