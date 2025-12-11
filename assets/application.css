@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -96,7 +96,7 @@ html {
   background: #0a5ed7; }
 
 body {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue", Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   font-size: 18px;
   color: #0f172a;
   line-height: 1.6;
@@ -117,7 +117,7 @@ p.disclaimer {
       color: #007aff; }
 
 strong {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue-Bold", Helvetica, sans-serif; }
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif; }
 
 span.asterisk {
   color: #0a1f3d; }
@@ -142,13 +142,13 @@ ul.list {
     list-style: disc; }
 
 h3 {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue-Bold", Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   font-size: 30px;
   margin-bottom: 0.5em;
   color: #0a1f3d; }
 
 h4 {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue-Bold", Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   font-size: 22px;
   color: #1e5db8; }
 
@@ -225,7 +225,7 @@ body > header {
         font-size: 20px; } }
 
 h1 {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue-Bold", Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   font-size: 52px;
   font-weight: 700;
   line-height: 1.1; }
@@ -234,7 +234,7 @@ h1 {
     text-decoration: none; }
 
 h2 {
-  font-family: "Space Grotesk", "Avenir", "HelveticaNeue-Light", Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   font-size: 28px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.65); }
@@ -244,7 +244,7 @@ body > footer {
   margin: 0 auto;
   padding: 1em 0;
   color: #0a1f3d;
-  font: 18px "Space Grotesk", "Avenir", "HelveticaNeue-Light", Helvetica, sans-serif;
+  font: 18px "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   border-top: 1px solid rgba(0, 122, 255, 0.12);
   margin-top: 50px; }
   body > footer a {
