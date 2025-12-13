@@ -117,7 +117,8 @@ p.disclaimer {
       color: #007aff; }
 
 strong {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif; }
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
+  font-weight: 700; }
 
 span.asterisk {
   color: #0a1f3d; }
